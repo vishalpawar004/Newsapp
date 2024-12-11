@@ -40,10 +40,6 @@ export default class App extends Component {
                     <Route path='/Business' element={<Home search={this.state.search} language={this.state.language} q="Business" />} />
                     <Route path='/Farmers' element={<Home search={this.state.search} language={this.state.language} q="Farmers" />} />
                     <Route path='/Facts' element={<Home search={this.state.search} language={this.state.language} q="Facts" />} />
-
-
-
-
                     <Route path='/Cricket' element={<Home search={this.state.search} language={this.state.language} q="Cricket" />} />
                     <Route path='/International' element={<Home search={this.state.search} language={this.state.language} q="International" />} />
                     <Route path='/India' element={<Home search={this.state.search} language={this.state.language} q="India" />} />
